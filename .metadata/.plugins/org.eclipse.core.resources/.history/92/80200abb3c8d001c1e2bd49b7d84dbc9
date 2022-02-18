@@ -1,0 +1,25 @@
+package controller.board;
+
+import controller.Controller;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+import vo.BoardVO;
+
+public class BoardReplylistController implements Controller{
+
+	@Override
+	public void Execute(HttpServletRequest req, HttpServletResponse resp) {
+		//1 파라미터 받아오기(게시물 번호)
+		HttpSession session = req.getSession();
+		BoardVO boardvo = (BoardVO) session.getAttribute("BoardVO");
+		
+		//2 입력값 검증
+		
+		//3 Service 처리
+		
+		//4 View 이동
+
+	}
+
+}

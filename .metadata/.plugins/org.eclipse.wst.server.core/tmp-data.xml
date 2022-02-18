@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<temp-directories>
+  <temp-directory age="0" key="03ServletServer" path="tmp2" recycle="false"/>
+  <temp-directory age="0" key="07FileUpdownServer" path="tmp6" recycle="false"/>
+  <temp-directory age="0" key="06BoardServer" path="tmp5" recycle="false"/>
+  <temp-directory age="0" key="05WebFilterServer" path="tmp4" recycle="false"/>
+  <temp-directory age="0" key="09AjaxServer" path="tmp7" recycle="false"/>
+  <temp-directory age="0" key="02JDBCServer" path="tmp1" recycle="false"/>
+  <temp-directory age="0" key="01JSPServer" path="tmp0" recycle="false"/>
+  <temp-directory age="0" key="04MVC2Server" path="tmp3" recycle="false"/>
+  <temp-directory age="0" key="TESTServer" path="tmp8" recycle="false"/>
+</temp-directories>

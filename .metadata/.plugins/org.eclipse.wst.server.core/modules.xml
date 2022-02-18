@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:TEST" serverId="TESTServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900FileUpdownload" serverId="07FileUpdownServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:05WebFilter" serverId="05WebFilterServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900Ajax" serverId="09AjaxServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:04MVC2" serverId="04MVC2Server"/>
+  <module moduleId="org.eclipse.jst.jee.server:02JDBC" serverId="02JDBCServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900Board" serverId="06BoardServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900JAVAWEBSRC" serverId="01JSPServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:03DBCP" serverId="03ServletServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900Servlet" serverId="03ServletServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:01JSP" serverId="01JSPServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900JDBC" serverId="02JDBCServer"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900MVC2" serverId="04MVC2Server"/>
+  <module moduleId="org.eclipse.jst.jee.server:0900WebFilter" serverId="05WebFilterServer"/>
+</modules>

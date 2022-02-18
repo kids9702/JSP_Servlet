@@ -1,0 +1,25 @@
+@charset "UTF-8";
+#header
+{
+	height:40px;
+	border:1px solid gray;
+	margin:2px;	
+}
+#nav
+{
+	height:40px;
+	border:1px solid gray;
+	margin:2px;	
+}
+#content
+{
+	height:80px;
+	border:1px solid gray;
+	margin:2px;	
+}
+#footer
+{
+	height:40px;
+	border:1px solid gray;
+	margin:2px;	
+}

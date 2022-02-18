@@ -1,0 +1,10 @@
+package vo;
+
+public class ReplyVO {
+	int r_num;
+	int b_num;
+	String writer;
+	String comment;
+	int ref;
+	String reg_date;
+}

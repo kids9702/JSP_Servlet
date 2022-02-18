@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publish-info>
+  <server id="03ServletServer" path="publish2.dat"/>
+  <server id="07FileUpdownServer" path="publish6.dat"/>
+  <server id="06BoardServer" path="publish5.dat"/>
+  <server id="03DBCPServer at localhost" path="publish9.dat"/>
+  <server id="05WebFilterServer" path="publish4.dat"/>
+  <server id="09AjaxServer" path="publish7.dat"/>
+  <server id="02JDBCServer" path="publish1.dat"/>
+  <server id="01JSPServer" path="publish0.dat"/>
+  <server id="04MVC2Server" path="publish3.dat"/>
+  <server id="TESTServer" path="publish8.dat"/>
+</publish-info>

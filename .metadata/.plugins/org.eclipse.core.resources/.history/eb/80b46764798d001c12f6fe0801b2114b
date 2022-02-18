@@ -1,0 +1,15 @@
+package board;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class InsertSampleDate {
+
+	public static void main(String[] args) {
+		DBConnectionMgr pool = DBConnectionMgr.getInstance();
+		
+
+
+	}
+
+}

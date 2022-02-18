@@ -1,0 +1,39 @@
+package controller.board;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Vector;
+
+import controller.Controller;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+import service.BoardService;
+import vo.BoardVO;
+import vo.ReplyVO;
+
+public class BoardReplylistController implements Controller{
+
+	@Override
+	public void Execute(HttpServletRequest req, HttpServletResponse resp) {
+		//1 파라미터 받아오기(게시물 번호)
+		HttpSession session = req.getSession();
+		BoardVO boardvo = (BoardVO) session.getAttribute("BoardVO");
+		
+		//2 입력값 검증
+		
+		//3 Service 처리(reply_tbl에 게시물 번호에 해당되는 행들을 가지고 와야 함)
+		BoardService service = BoardService.getInstance();
+		Vector<ReplyVO> list = service.getReplyList(boardvo.getNum());
+		
+		try {
+			PrintWriter out = resp.getWriter();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		//4 View 이동
+
+	}
+
+}
