@@ -12177,3 +12177,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-18 12:40:03.436
 !MESSAGE close() called when useCnt is already zero for Repository[C:\WEB_YeongDo\HomeWorkspace\0900JAVAServers\.git]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-18 12:42:57.217
+!MESSAGE close() called when useCnt is already zero for Repository[C:\WEB_YeongDo\HomeWorkspace\0900Board\.git]
